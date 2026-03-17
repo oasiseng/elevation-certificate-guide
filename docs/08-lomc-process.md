@@ -141,7 +141,6 @@ A CLOMR-F is a conditional LOMR-F issued before fill is actually placed. It conf
 - FEMA compares as-built to proposed; if they match (within acceptable tolerance), final LOMR-F is issued
 - Tolerance is typically ±0.5 feet
 
-<<<<<<< codex/add-fema-mt-1-guidance-section-w3y6i0
 ## FEMA MT-1 Technical Guidance (Nov 2024): LAG and Fill Modifications for Existing Structures
 
 FEMA's updated MT-1 Technical Guidance (November 2024) maintains the core distinction that LAG must reflect true adjacent grade conditions and should not be manipulated through engineered edge treatments around existing structures. This section is organized around the same technical decision points used in FEMA's MT-1 guidance (including retaining-wall and post-construction fill scenarios).
