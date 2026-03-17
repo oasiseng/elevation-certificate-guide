@@ -18,23 +18,25 @@ Whether you're a property owner seeking to reduce flood insurance premiums, an i
 - **[Flood Zones Explained](docs/05-flood-zones-explained.md)** — A zones, V zones, moderate/low-risk zones, and their implications for EC completion
 
 ### Technical Deep Dives
-- **[Risk Rating 2.0 and Elevation Certificates](docs/06-risk-rating-2-0.md)** — How the shift from flood zone to property-specific risk calculation changed EC strategy
-- **[First Floor Height and Insurance Rating](docs/07-first-floor-height.md)** — Calculating and documenting First Floor Height (Section H) for accurate premium determination
-- **[Benchmarks and Datums](docs/08-benchmarks-and-datums.md)** — Vertical control, datum selection, and tie-to-benchmark requirements
-- **[Flood Opening Requirements and Enclosure Details](docs/09-flood-openings.md)** — Proper documentation of flood vents, openings, and breakaway walls
+- **[Flood Openings and Venting](docs/06-flood-openings-and-venting.md)** — Proper documentation of flood vents, openings, enclosure requirements, and breakaway walls
+- **[Risk Rating 2.0 and Elevation Certificates](docs/07-risk-rating-2.md)** — How property-specific rating changed EC strategy, FFH, Section H self-certification, and CRS benefits
+- **[Letters of Map Change (LOMC)](docs/08-lomc-process.md)** — Using ECs to support LOMA, CLOMA, LOMR-F, and CLOMR-F applications
+- **[Common Mistakes and How to Avoid Them](docs/09-common-mistakes.md)** — Real-world errors that delay processing, increase premiums, and create liability
 
 ### Reference
-- **[Common Errors and How to Avoid Them](docs/10-common-errors.md)** — Real-world mistakes that delay processing and how to prevent them
-- **[FEMA Form FF-206 Field Reference](docs/11-field-reference.md)** — Quick lookup for specific fields and their definitions
+- **[Glossary](docs/10-glossary.md)** — 40+ key terms from ABFE to Substantial Improvement
+- **[Resources and Links](docs/11-resources.md)** — FEMA forms, technical bulletins, professional associations, and support contacts
 
 ### Audience Guides
 - **[Guide for Homeowners](guides/homeowners.md)** — Understanding your options and what to expect from the EC process
-- **[Guide for Insurance Agents](guides/insurance-agents.md)** — Explaining ECs to clients and identifying situations where they make financial sense
-- **[Guide for Engineers & Surveyors](guides/engineers-surveyors.md)** — Technical standards, best practices, and quality control
+- **[Guide for Insurance Agents](guides/insurance-agents.md)** — Reading ECs, key rating fields, and when to recommend them to clients
+- **[Guide for Engineers & Surveyors](guides/engineers-and-surveyors.md)** — Technical standards, field procedures, and professional liability
 - **[Guide for Floodplain Managers](guides/floodplain-managers.md)** — Using ECs for permit review, code enforcement, and community compliance
 
-### Internal Operations
-- **[Internal: Operations Template](internal/operations-template.md)** — A customizable framework for firms to develop their own EC processes (customize with your firm's standards, quality checks, and workflows)
+### Internal Operations (Firm Templates)
+- **[Field Procedures](internal/field-procedures.md)** — Pre-visit prep, equipment checklist, on-site measurement protocols, and post-field processing
+- **[QC Checklist](internal/qc-checklist.md)** — Section-by-section quality control review before submission
+- **[Client Communication Templates](internal/client-communication.md)** — Email templates, talking points, and FAQ responses for client engagements
 
 ---
 
@@ -44,13 +46,13 @@ Whether you're a property owner seeking to reduce flood insurance premiums, an i
 Start with "[What Is an Elevation Certificate?](docs/01-what-is-an-elevation-certificate.md)" to understand the potential savings, then "[Guide for Homeowners](guides/homeowners.md)" for next steps. An EC could save thousands annually if your home sits above the base flood elevation.
 
 ### I'm an insurance agent and a client asked about ECs
-See "[Guide for Insurance Agents](guides/insurance-agents.md)" for talking points, and refer to "[First Floor Height and Insurance Rating](docs/07-first-floor-height.md)" to understand exactly what gets measured.
+See "[Guide for Insurance Agents](guides/insurance-agents.md)" for talking points, and refer to "[Risk Rating 2.0](docs/07-risk-rating-2.md)" to understand how FFH and ECs affect premiums.
 
 ### I'm an engineer or surveyor preparing to complete an EC
-Start with "[Who Can Complete an Elevation Certificate?](docs/02-who-can-complete.md)" to confirm scope, then "[Form Walkthrough](docs/03-form-walkthrough.md)" and "[Building Diagrams Explained](docs/04-building-diagrams.md)" for detailed guidance. "[Benchmarks and Datums](docs/08-benchmarks-and-datums.md)" covers vertical control requirements.
+Start with "[Who Can Complete an Elevation Certificate?](docs/02-who-can-complete.md)" to confirm scope, then "[Form Walkthrough](docs/03-form-walkthrough.md)" and "[Building Diagrams Explained](docs/04-building-diagrams.md)" for detailed guidance. Check "[Common Mistakes](docs/09-common-mistakes.md)" before your first submission.
 
 ### I'm a floodplain manager reviewing submitted ECs
-See "[Guide for Floodplain Managers](guides/floodplain-managers.md)" and "[Common Errors and How to Avoid Them](docs/10-common-errors.md)" to quickly identify issues and communicate effectively with applicants.
+See "[Guide for Floodplain Managers](guides/floodplain-managers.md)" and "[Common Mistakes](docs/09-common-mistakes.md)" to quickly identify issues and communicate effectively with applicants.
 
 ### I want to understand flood zones
 "[Flood Zones Explained](docs/05-flood-zones-explained.md)" covers everything from AE zones to V zones to moderate-risk areas, and their implications for elevation work.
