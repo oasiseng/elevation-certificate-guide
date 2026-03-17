@@ -155,7 +155,6 @@ FEMA's updated MT-1 Technical Guidance (November 2024) maintains the core distin
 ## [FEMA MT-1 Technical Guidance (Doc 65, Nov 2019)](https://www.fema.gov/sites/default/files/documents/fema_guidance_mt-1_technical_guidance_nov_2024.pdf): LAG and Fill Modifications for Existing Structures
 
 FEMA's MT-1 technical guidance (Document 65, Section 4.13, p.43) draws a clear distinction between **legitimate site grading** and **retrofit attempts to manipulate LAG** for an existing building.
->>>>>>> main
 
 ### Core Principle
 
