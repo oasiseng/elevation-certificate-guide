@@ -39,6 +39,10 @@ Comprehensive list of official FEMA resources, technical guidance, and support c
 
 ### Primary Publications
 
+- **FEMA MT-1 Technical Guidance (November 2024)**
+  FEMA's current technical guidance for MT-1 requests, including LAG/grade interpretation, fill-based map change documentation, and application support requirements
+  URL: https://www.fema.gov/sites/default/files/documents/fema_guidance_mt-1_technical_guidance_nov_2024.pdf
+
 - **FEMA Publication 467-1: Floodplain Management Bulletin: Elevation Certificate**
   Comprehensive technical guidance on EC completion, common errors, and use cases
 
