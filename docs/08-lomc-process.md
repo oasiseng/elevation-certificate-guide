@@ -141,6 +141,85 @@ A CLOMR-F is a conditional LOMR-F issued before fill is actually placed. It conf
 - FEMA compares as-built to proposed; if they match (within acceptable tolerance), final LOMR-F is issued
 - Tolerance is typically ±0.5 feet
 
+## FEMA MT-1 Technical Guidance (Doc 65, Nov 2019): LAG and Fill Modifications for Existing Structures
+
+FEMA's MT-1 technical guidance (Document 65, Section 4.13, p.43) draws a clear distinction between **legitimate site grading** and **retrofit attempts to manipulate LAG** for an existing building.
+
+### Core Principle
+
+- Fill used to raise land above BFE is intended to occur **before** building construction.
+- For existing structures, placing fill around a building to increase reported LAG is generally **not recommended** and may violate NFIP requirements.
+- If the objective is flood protection through structural or site modification, FEMA typically expects an **MT-2 pathway** (LOMR/CLOMR), not a standard MT-1-only approach.
+
+### Retaining Wall Decision Branch (Critical for LAG)
+
+When retaining walls are present, FEMA's LAG interpretation depends on whether the building relies on the wall:
+
+1. **Building is set back from retaining wall (not structurally dependent):**
+   - MT-1 review is typically allowed.
+   - LAG is generally taken at/adjacent to the building foundation.
+   - FEMA may still perform additional case review and override measurement location if warranted by design conditions.
+
+2. **Building is supported by retaining wall (structural dependence exists):**
+   - LAG is taken at the **lowest point where grade meets the retaining wall**.
+   - This configuration is commonly associated with a likely non-removal outcome.
+
+### Existing Structure Retrofit Attempts to Increase LAG
+
+Potentially acceptable only on a strict, case-by-case basis:
+- Fill is properly compacted.
+- Fill is appropriately sloped and stable.
+- Work creates a true adjacent grade condition (not merely engineered enclosure).
+
+Typically not acceptable:
+- "Sandwich" fill retained on all sides by walls with no true natural-ground interface.
+- Curbs or similar perimeter additions intended only to raise grade readings at foundation edges.
+- Any configuration that does not represent genuine adjacent grade.
+
+### Required Sequence Before Any LAG-Altering Work
+
+1. Consult the local floodplain administrator.
+2. Confirm local/state rules and any standards stricter than FEMA minimum criteria.
+3. Submit **CLOMR-F before construction/fill placement** when proposing fill-based revision strategy.
+
+This sequencing is essential to avoid expensive non-compliant work that FEMA may later reject.
+
+### Practical Screening Logic (Engineering/Review Use)
+
+Use this as a high-level triage framework for project scoping:
+
+```text
+IF building_exists:
+    IF fill_added_to_change_LAG:
+        REJECT (likely NFIP violation)
+    IF modification_for_flood_protection:
+        REQUIRE MT-2 (LOMR/CLOMR)
+
+IF retaining_wall_present:
+    IF building_setback_from_wall:
+        LAG = foundation_elevation
+    ELSE IF building_supported_by_wall:
+        LAG = lowest_grade_at_wall
+        RESULT = likely_non_removal
+
+IF retrofit_attempt:
+    IF fill_is_compacted AND sloped AND creates_true_grade:
+        POSSIBLE (case-by-case)
+    ELSE:
+        REJECT
+
+BEFORE_any_modification:
+    REQUIRE local_floodplain_approval
+    REQUIRE CLOMR-F submission
+```
+
+### Implementation Takeaways
+
+- LAG must represent **true adjacent ground**, not engineered workarounds.
+- Existing structures are heavily constrained for LAG modification claims.
+- Retaining wall geometry and structural dependence are often dispositive.
+- Pre-approval and documentation discipline (especially CLOMR-F and local review) should be treated as mandatory gate checks.
+
 ## Elevation Certificate Requirements for All LOMC Types
 
 ### LAG and HAG Definitions (Critical Distinction)
